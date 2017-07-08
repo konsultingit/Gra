@@ -28,6 +28,33 @@ function Card(text_,budgetY,usersY,sharesY,workersY,recognitionY,qualityY,priceY
     }
 }
 
-//Karty
+function draw(table)
+{
+    var i = Math.floor(Math.random() * 10);
+    return table[i];
+}
 
+//Tablica
+var table=[];
+
+//Karty
 var karta = new Card("Pierwsza",0,10,20,1,10,-1,2,0,-10,-2,-100,-1,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Druga",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Trzeci",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Czwarta",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Piąta",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Szósta",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Siódma",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Ósma",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Dziewiąta",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
+karta = new Card("Dziesiąta",0,110,-20,11,110,-11,12,10,5,5,-1,-7,-2,-3,-5,-100);
+table.push(karta);
