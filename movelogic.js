@@ -9,11 +9,11 @@ document.onkeydown = function checkKeycode(event) {
     switch(keycode) {
     	case 37: 
     		//$('#gameBlock').addClass("animated slideFadeLeft");
-            onPlayerChoose(0);
+            onPlayerChoose(packArray[1].card[currentCard].caseNo);
     		break;
     	case 39:
     		//$('#gameBlock').addClass("animated slideFadeRight");
-            onPlayerChoose(1);
+            onPlayerChoose(packArray[1].card[currentCard].caseYes);
     		break;
     }
 }

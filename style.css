@@ -66,6 +66,7 @@ footer p {
 	color: white;
 	border-radius: 10px;
 	box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    display:inline-block;
 }
 
 #gameBlock img {
@@ -90,3 +91,11 @@ footer p {
 	animation-duration: 1s, 0.2s;
 	animation-delay: 0s, 0.2s;
 }
+
+#stats{
+    text-align: center;
+    width: 100%;
+
+}
+
+
